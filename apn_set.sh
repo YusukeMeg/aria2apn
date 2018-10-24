@@ -11,7 +11,7 @@ curl -X POST \
 curl -X POST \
   http://192.168.0.1/goform/goform_set_cmd_process \
   -H 'Cache-Control: no-cache' \
-  -d 'isTest=false&goformId=APN_PROC_EX&apn_mode=manual&apn_action=set_default&set_default_flag=1&pdp_type=IP&index=0'
+  -d 'goformId=SET_CONNECTION_MODE&isTest=false&ConnectionMode=auto_dial&roam_setting_option=on'
 
 curl -X POST \
   http://192.168.0.1/goform/goform_set_cmd_process \
